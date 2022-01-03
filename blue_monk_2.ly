@@ -24,20 +24,20 @@ music = <<
 
 	  bes'8[ c cis d]~ d2
           es8[ f fis g]~ g2
-	  d8[ es d des] c8[ d, a' b]~
-	  \tuplet 3/2 { b8 bes4 } a4~ a4 r4
+	  d8[ es d des] c8[ d, a' bes]~
+	  \tuplet 3/2 { bes8 a4 } as4~ as4 r4
 	  \break
 
-	  es'8[ e f g]~ g2
+	  es'8[ f fis g]~ g2
 	  g8[ gis a bes]~ bes2
-	  d,8[ es d des] c8[ d, a' b]~
-	  b2. \tuplet 3/2 { d8 d d }
+	  d,8[ es d des] c8[ d, a' bes]~
+	  bes2. \tuplet 3/2 { d8 d dis }
 	  \break
 	  
-	  d8[ d,8]~ d2.
-	  d'8[ es d des] c8[ d, bes' b]~
-	  b4 d8[ es8] d8[ des c d,]
-	  bes'8[ as8]~ as4 r2
+	  e,8 r8 r4 r2
+	  d'8[ es d des] c8[ d, a' bes]~
+	  bes4 d8[ es8] d8[ des c d,]
+	  a'8[ as8]~ as4 r2
 	  \bar "|."
 	}
 >>
