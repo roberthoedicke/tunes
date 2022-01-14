@@ -31,10 +31,10 @@ music = <<
 	  es'8[ f fis g]~ g2
 	  g8[ gis a bes]~ bes2
 	  d,8[ es d des] c8[ d, a' bes]~
-	  bes2. \tuplet 3/2 { d8 d dis }
+	  bes2. \tuplet 3/2 { d8 d des }
 	  \break
 	  
-	  e,8 r8 r4 r2
+	  c,8 r8 r4 r2
 	  d'8[ es d des] c8[ d, a' bes]~
 	  bes4 d8[ es8] d8[ des c d,]
 	  a'8[ as8]~ as4 r2
