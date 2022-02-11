@@ -2,6 +2,7 @@
 
 all:					\
 	all_blues.pdf			\
+	all_of_me.pdf			\
 	blue_monk.pdf			\
 	blue_monk_2.pdf			\
 	blue_train.pdf			\
