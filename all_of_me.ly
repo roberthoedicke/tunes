@@ -80,7 +80,7 @@ music = <<
 	  a2 \tuplet 3/2 { a4 d b }
 	  a1
 	  b1
-	  \break
+	  \bar "||" \break
 
 	  \mark \markup { \box \bold B }
 	  c4 g8[ e]~ e2~
