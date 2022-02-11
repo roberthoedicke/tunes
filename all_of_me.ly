@@ -57,6 +57,7 @@ music = <<
 	  \time 4/4
 	  \numericTimeSignature
 
+	  \mark \markup { \box \bold A }
 	  c''4 g8[ e]~ e2~
 	  e2 \tuplet 3/2 { c'4 d c }
 	  b4 gis8[ e ]~ e2~
@@ -81,6 +82,7 @@ music = <<
 	  b1
 	  \break
 
+	  \mark \markup { \box \bold B }
 	  c4 g8[ e]~ e2~
 	  e2 \tuplet 3/2 { c'4 d c }
 	  b4 gis8 [ e]~ e2~
