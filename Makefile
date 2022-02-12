@@ -13,6 +13,10 @@ all:					\
 
 all_blues.pdf: all_blues.ly leadsheet.ly voices.ly
 
+all_of_me.pdf: all_of_me.ly leadsheet.ly voices.ly
+
+april_in_paris.pdf: april_in_paris.ly leadsheet.ly voices.ly
+
 blue_monk.pdf: blue_monk.ly leadsheet.ly voices.ly
 blue_monk_2.pdf: blue_monk_2.ly leadsheet.ly voices.ly
 
