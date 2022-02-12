@@ -3,108 +3,108 @@
 \include "leadsheet.ly"
 
 \header{
-  title = "All of Me"
-  composer = "Gerald Marks"
+  title = "April in Paris"
+  composer = "Vernon Duke"
 }
 
 music = <<
 	\chords
 	{
-	  c1:maj7
-	  c1:maj7
-	  e1:7
-	  e1:7
+	  es1:m6/f
+	  bes1:maj7
+	  c1:m7.5-
+	  f1:7
 
-	  a1:7
-	  a1:7
-	  d1:m7
-	  d1:m7
+	  bes1:maj7
+	  bes1:maj7
+	  f1:m7
+	  bes1:7
 
-	  e1:7
-	  e1:7
-	  a1:m7
-	  a1:m7
+	  es1:maj7
+	  es1:maj7
+	  a2:m7.5- d2:7
+	  g2:m g2:m/f
 
-	  d1:7
-	  d1:7
-	  d1:m7
-	  g1:7
+	  e:m7.5-
+	  a1:7.5-
+	  a2:m7 d2:7
+	  d2:m7.5- g2:7
 
-	  c1:maj7
-	  c1:maj7
-	  e1:7
-	  e1:7
+	  e2:m7 es2:dim
+	  bes2/d des2:dim
+	  c1:m7.5-
+	  bes1/d
 
-	  a1:7
-	  a1:7
-	  d1:m7
-	  d1:m7
+	  a2:m7.5- d2:7
+	  g2:m g2:m/f
+	  e2:m7.5- a2:7.5
+	  d2:maj7/c f2:7
 
-	  f1
-	  f1:m
-	  e1:m7
-	  a1:7
+	  es1:m6/f
+	  bes1:maj7
+	  d1:m7.5-
+	  g1:7.5
 
-	  d1:m7
-	  g1:7
-	  c1:6
-	  g1:7
+	  c1:7
+	  c2:m7 f2:7
+	  bes1:6
+	  bes1:6
 	}
 
 	\relative
 	{
-	  \key c \major
+	  \key bes \major
 	  \time 4/4
 	  \numericTimeSignature
 
 	  \mark \markup { \box \bold A }
-	  c''4 g8[ e]~ e2~
-	  e2 \tuplet 3/2 { c'4 d c }
-	  b4 gis8[ e ]~ e2~
-	  e1
+	  \tuplet 3/2 { es'4 es es } cis4 d4~
+	  d2 r2
+	  \tuplet 3/2 { es4 es es } cis4 d4~
+	  d2 r2
 	  \break
 
-	  a4. g8 f2~
-	  f4 dis4 \tuplet 3/2 { e4 bes' a }
-	  g2 f2~
-	  f1
+	  \tuplet 3/2 { c4 c c } a4 bes4~
+	  bes4 d4 f4 a4
+	  c1~
+	  c2 r2
 	  \break
 
-	  e4. es8 d2~
-	  d2 \tuplet 3/2 { e4 gis b }
-	  d2 c2~
-	  c1
+	  \tuplet 3/2 { c4 c c } a4 bes4~
+	  bes1
+	  \tuplet 3/2 { c4 c c } a4 bes4~
+	  bes1
 	  \break
 
-	  b4. bes8 a2~
-	  a2 \tuplet 3/2 { a4 d b }
-	  a1
-	  b1
+	  \tuplet 3/2 { bes4 bes bes } g4 a4~
+	  a2 bes2
+	  d1~
+	  d1
 	  \bar "||" \break
 
 	  \mark \markup { \box \bold B }
-	  c4 g8[ e]~ e2~
-	  e2 \tuplet 3/2 { c'4 d c }
-	  b4 gis8 [ e]~ e2~
-	  e1
+	  d2 c8[ gis8 a c]
+	  bes4 bes4 bes2
+	  c8[ gis8 a c] bes4 bes4
+	  bes1
 	  \break
 
-	  a4. g8 e2~
-	  e4 dis4 \tuplet 3/2 { e4 bes' a }
-	  g2 f2~
-	  f1
+	  d2 c8[ gis8 a c]
+	  bes4 bes4 bes2
+	  bes8[ fis8 g bes] a4 a4
+	  fis2 f2
 	  \break
 
-	  d'2 c4 b4
-	  d2. c4
-	  b2 e,4 g4
-	  b2. a4
+	  \tuplet 3/2 { es4 es es } cis4 d4~
+	  d1
+	  \tuplet 3/2 { as'4 as as } fis4 g4~
+	  g1
 	  \break
 
-	  c2 a4 c4
-	  e2 e2
-	  c1~
-	  c1
+	  \tuplet 3/2 { c4 c c } a4 bes4~
+	  bes2 c2
+	  bes1~
+	  bes4 r4 r2
 	  \bar "|."
 	}
 >>
