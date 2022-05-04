@@ -64,8 +64,8 @@ music = <<
 	  e1
 	  \break
 
-	  a4. g8 f2~
-	  f4 dis4 \tuplet 3/2 { e4 bes' a }
+	  a4. g8 e2~
+	  e4 dis4 \tuplet 3/2 { e4 bes' a }
 	  g2 f2~
 	  f1
 	  \break
