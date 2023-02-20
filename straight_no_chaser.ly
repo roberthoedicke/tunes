@@ -32,7 +32,7 @@ music = <<
 
 	  r8 f,8 bes8[ c] cis8[ d es des]~
 	  des1
-	  r8 f,8 bes8[ d] cis8[ d] r8 f,8
+	  r8 f,8 bes8[ c] cis8[ d] r8 f,8
 	  bes8[ c cis d] r8 f,8 bes8[ c]
 	  \break
 	  
