@@ -32,15 +32,15 @@ music = <<
 
 	  s1 s1 s1 s1
 
-	  bes1 g1:7 c1:7 s1
+	  bes1 g1:7 c1:7 r1
 	  c1:m f1:7 bes1 f2:m e2:7
 	  es1 es1:m bes1 g1:7
-	  c1:7 s1 f1:7 s1
+	  c1:7 r1 f1:7 r1
 
-	  bes1 g1:7 c1:7 s1
+	  bes1 g1:7 c1:7 r1
 	  d1:7 s1 g1:m d1:7
 	  g1:m d1:7 g1:m bes1:dim
-	  bes2 g2:7 c2:m f2:7 bes1 s1
+	  bes2 g2:7 c2:m f2:7 bes1 r1
 	}
 
 	\relative
@@ -151,7 +151,7 @@ music = <<
 	  d4 bes8 [bes]~ bes4 r4
 	  \break
 
-	  r8 f'8~ f4\glissando bes8. a16
+	  r8 f'8~ f4\glissando bes4.. a16
 	  g16 [fis es d] c16 [bes a g] f16 [e d e] f16 [g a f]
 	  g4 r4 r8 g8~ g4
 	  r4 r8 es8 r2
@@ -159,7 +159,7 @@ music = <<
 
 	  r8 f'8~ f4\glissando d'4 r8 bes8~
 	  bes4 g8 [bes8] g8 [d] r8 g8
-	  d8 [bes8] r8 d8 bes8 [g] r4 bes8
+	  d8 [bes8] r8 d8 bes8 [g] r8 bes8
 	  g8 [d] g8 [g] r2_\markup { "FINE" }
 	  \bar "|."
 	}
