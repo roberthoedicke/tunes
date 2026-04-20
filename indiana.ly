@@ -12,7 +12,6 @@
 			"Lester Young (ts)"
 		}
 	     }
-  instrument = "Bb"
 }
 
 music = <<
@@ -165,4 +164,4 @@ music = <<
 	}
 >>
 
-\include "voice_Bb.ly"
+\include "voices_Bb.ly"

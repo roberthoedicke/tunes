@@ -8,6 +8,7 @@ all:					\
 	blue_monk_2.pdf			\
 	blue_train.pdf			\
 	how_high_the_moon.pdf		\
+	indiana.pdf			\
 	pretend.pdf			\
 	straight_no_chaser.pdf		\
 	willow_weep_for_me.pdf
@@ -22,6 +23,8 @@ blue_monk.pdf: blue_monk.ly leadsheet.ly voices.ly
 blue_monk_2.pdf: blue_monk_2.ly leadsheet.ly voices.ly
 
 blue_train.pdf: blue_train.ly leadsheet.ly voices.ly
+
+indiana.pdf: indiana.ly leadsheet.ly voices_Bb.ly
 
 pretend.pdf: pretend.ly leadsheet.ly voices.ly
 
