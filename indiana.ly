@@ -12,6 +12,7 @@
 			"Lester Young (ts)"
 		}
 	     }
+  instrument = "Bb"
 }
 
 music = <<
@@ -30,6 +31,16 @@ music = <<
 	  bes2 g2:7 c2:m f2:aug bes1 r1
 
 	  s1 s1 s1 s1
+
+	  bes1 g1:7 c1:7 s1
+	  c1:m f1:7 bes1 f2:m e2:7
+	  es1 es1:m bes1 g1:7
+	  c1:7 s1 f1:7 s1
+
+	  bes1 g1:7 c1:7 s1
+	  d1:7 s1 g1:m d1:7
+	  g1:m d1:7 g1:m bes1:dim
+	  bes2 g2:7 c2:m f2:7 bes1 s1
 	}
 
 	\relative
@@ -79,10 +90,10 @@ music = <<
 	  d8 [g,] bes2 g8 [bes]
 	  \break
 
-	  d4 \tuplet 3/2 g8 [a g] f8 [d] bes8 [g]
-	  fis8 [a]~ a8. d4. c8
+	  d4 \tuplet 3/2 { g8 (a g) } f8 [d] bes8 [g]
+	  fis8 [a]~ a4 d4. c8
 	  bes8 [g]~ g2 r8 g8
-	  \tuplet 3/2 bes8 [a g] es2~ es8 [g]~
+	  \tuplet 3/2 { bes8 (a g) } es2~ es8 [g]~
 	  \break
 
 	  g4 f8 [a]~ a4. g8
@@ -93,11 +104,63 @@ music = <<
 
 	  f4 r4 r2
 	  \override TextScript.extra-offset = #'(0 . 4.0)
-	  s2 s4-\markup { \whiteout \pad-markup #0.5 "     piano solo     " } s4 s1
+	  s2 s8-\markup { \whiteout \pad-markup #0.5 "|-     piano solo     -|" } s8 s4 s1
 	  \override TextScript.extra-offset = #'(0 . 0.0)
-	  r2^\markup { \whiteout \pad-markup #0.5 "pickup Lester" } bes'8\staccato a8 [g]
+	  r2^\markup { \whiteout \pad-markup #0.5 "pickup Lester" } bes'4\staccato a8 [g]
 	  \break
 
+	  \pageBreak
+
+	  \mark \markup { \box \bold A }
+
+	  f2 d8 [f] a8 [g]
+	  f8 [d] a2 g4
+	  d'4 r4 r4. a8
+	  bes8 [d] e8 [a]~ \tuplet 3/2 { a8 (bes a) } \tuplet 3/2 { g8 (a g) }
+	  \break
+
+	  es8 [d] g8 [a16 [g]] d8 [c]~ c4
+	  es4-. \tuplet 3/2 { g8 (a g) } ges8 [es] c8 [f]
+	  d8 [bes] g8 [f] bes2
+	  r2 r4 r8 bes'8~
+	  \break
+
+	  bes2 g8 [es] c8 [bes]
+	  bes2 a8 [bes] d8 [f]
+	  a8 [as] g8 [ges] f4 d4~
+	  d4 a8 [d]~ d4 des8 [a]
+	  \break
+
+	  g4. bes8 e8-- [e-^] r8 d8
+	  bes8 [g] d'2 r4
+	  r2 a'8 [d] a8 [g]
+	  es8 [a,] g8 [es] d'4. f8~
+	  \break
+
+	  \mark \markup { \box \bold B }
+
+	  f4 d8 [f] a8 [as] g8 [ges]
+	  f8 [d] a2 g8 [a]
+	  bes8 [d]~ d4 a4. g16 [a]
+	  g8 [d] g8 [a] bes8 [g] bes8 [g]
+	  \break
+
+	  a8 [fis] a8 [c] e4 r4
+	  r8 d8 es8 [fis] a8 [fis] a8 [fis]
+	  \tuplet 3/2 { g8 (a g) } d8 [bes] g8 [bes] r8 d8~
+	  d4 bes8 [bes]~ bes4 r4
+	  \break
+
+	  r8 f'8~ f4\glissando bes8. a16
+	  g16 [fis es d] c16 [bes a g] f16 [e d e] f16 [g a f]
+	  g4 r4 r8 g8~ g4
+	  r4 r8 es8 r2
+	  \break
+
+	  r8 f'8~ f4\glissando d'4 r8 bes8~
+	  bes4 g8 [bes8] g8 [d] r8 g8
+	  d8 [bes8] r8 d8 bes8 [g] r4 bes8
+	  g8 [d] g8 [g] r2_\markup { "FINE" }
 	  \bar "|."
 	}
 >>
