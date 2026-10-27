@@ -118,7 +118,7 @@ music = <<
 	  bes8 [d] e8 [a]~ \tuplet 3/2 { a8 (bes a) } \tuplet 3/2 { g8 (a g) }
 	  \break
 
-	  es8 [d] g8 [a16 [g]] d8 [c]~ c4
+	  es8 [d] g8 [a16 g] d8 [c]~ c4
 	  es4-. \tuplet 3/2 { g8 (a g) } ges8 [es] c8 [f]
 	  d8 [bes] g8 [f] bes2
 	  r2 r4 r8 bes'8~
