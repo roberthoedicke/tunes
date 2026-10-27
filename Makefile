@@ -9,6 +9,7 @@ all:					\
 	blue_train.pdf			\
 	how_high_the_moon.pdf		\
 	indiana.pdf			\
+	indiana_ly_solo.pdf		\
 	lady_be_good.pdf		\
 	pretend.pdf			\
 	straight_no_chaser.pdf		\
@@ -26,6 +27,8 @@ blue_monk_2.pdf: blue_monk_2.ly leadsheet.ly voices.ly
 blue_train.pdf: blue_train.ly leadsheet.ly voices.ly
 
 indiana.pdf: indiana.ly leadsheet.ly voices_Bb.ly
+
+indiana_ly_solo.pdf: indiana_ly_solo.ly leadsheet.ly voices_Bb.ly
 
 lady_be_good.pdf: lady_be_good.ly leadsheet.ly voices.ly
 
