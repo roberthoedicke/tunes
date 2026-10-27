@@ -21,7 +21,7 @@ music = <<
 	  \partial 2 s2
 	  bes1 g1:7 c1:7 r1
 	  c1:m7 f1:7 bes1 f2:m e2:7
-	  es1:m7 es1:m7 bes1 g1:7
+	  es1:7 es1:m7 bes1 g1:7
 	  c1:7 c1:7 f1:7 r1
 
 	  bes1 g1:aug c1:aug r1
