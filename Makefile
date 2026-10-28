@@ -7,6 +7,7 @@ all:					\
 	blue_monk.pdf			\
 	blue_monk_2.pdf			\
 	blue_train.pdf			\
+	cheek_to_cheek.pdf		\
 	how_high_the_moon.pdf		\
 	indiana.pdf			\
 	indiana_ly_solo.pdf		\
@@ -25,6 +26,8 @@ blue_monk.pdf: blue_monk.ly leadsheet.ly voices.ly
 blue_monk_2.pdf: blue_monk_2.ly leadsheet.ly voices.ly
 
 blue_train.pdf: blue_train.ly leadsheet.ly voices.ly
+
+cheek_to_cheek.pdf: cheek_to_cheek.ly leadsheet.ly voices_Bb.ly
 
 indiana.pdf: indiana.ly leadsheet.ly voices_Bb.ly
 
