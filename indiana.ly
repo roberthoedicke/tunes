@@ -93,3 +93,38 @@ music = <<
 >>
 
 \include "voices_Bb.ly"
+
+\book
+{
+	\score
+	{
+		\bookOutputSuffix "C-As"
+
+		\header{
+			instrument = "C"
+		}
+
+		\transpose g as
+		\relative g
+		{
+			\music
+		}
+	}
+}
+\book
+{
+	\score
+	{
+		\bookOutputSuffix "Bb-As"
+
+		\header{
+			instrument = "Bb"
+		}
+
+		\transpose g bes
+		\relative g
+		{
+			\music
+		}
+	}
+}
